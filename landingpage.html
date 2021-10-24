@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seek Coding</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .wrapper{
+            background-image: url("https://previews.123rf.com/images/floralset/floralset1605/floralset160500012/56192716-programming-coding-flat-computing-background-code-hardware-software-web-development-search-engine-op.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        .navbar{
+            height: 80px;
+            width: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .logo{
+            width: 140px;
+            height: auto;
+            padding: 20px 100px;
+            bottom: 60px;
+        }
+        ul{
+            float: right;
+            margin-right: 20px;
+        }
+        li{
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+       .active:hover{
+            background: red;
+            border-radius: 2px;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        h1{
+            color:red;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;
+        }
+        h2{
+            color:red;
+            font-size: 70px;
+            font-weight: bold;
+            width: 885px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .buttons{
+            margin:35px 280px;
+        }
+        button{
+            height:50px;
+            width:150px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffb3b3;
+            background: red;
+            border:1px solid #cc0000;
+            outline: none;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: .5s;
+        }
+        .btn{
+            margin-left: 25px;
+        }
+        button:hover{
+            background: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+           <img class="logo" src="https://www.sparkpost.com/wp-content/uploads/2017/05/Email-Monks-Logo_400x150.png">
+           <ul>
+               <li><a class="active" href="#">Home</a></li>
+               <li><a class="active" href="#">About</a></li>
+               <li><a class="active" href="#">Services</a></li>
+               <li><a class="active" href="#">Contact</a></li>
+           </ul>
+        </nav>
+        <div class="center">
+            <h1>Welcome to EmailMonks</h1>
+            <h2>Create Something New</h2>
+            <div class="buttons">
+                <button>Explore More</button>
+                <button class="btn">Subscribe Us</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
